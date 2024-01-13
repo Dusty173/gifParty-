@@ -1,0 +1,59 @@
+body {
+    background-color: darkslategrey;
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+#removebtn{
+    margin: 2px;
+    padding: 10px;
+    background-color: red;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+}
+
+#searchbtn{
+    margin: 2px;
+    padding: 10px;
+    background-color: green;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+}
+
+#searchbox{
+    background-color: lightgray;
+    margin: 2px;
+    padding: 10px;
+    border-style: none;
+    border-radius: 5px;
+}
+
+#searchbox:focus{
+    outline: none;
+    background-color: white;
+    
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#gifarea{
+    margin-top: 40px;
+    grid-row: auto;
+}
+
+img{
+    border: solid black 1px;
+    margin: 4px;
+    max-width: 200px;
+    max-height: 200px;
+}
